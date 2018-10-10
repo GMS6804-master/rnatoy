@@ -30,9 +30,9 @@
  * Defines some parameters in order to specify the refence genomes
  * and read pairs by using the command line options
  */
-params.reads = "$baseDir/data/ggal/*_{1,2}.fq"
-params.annot = "$baseDir/data/ggal/ggal_1_48850000_49020000.bed.gff"
-params.genome = "$baseDir/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa"
+params.reads = "/home/djlemas/rnatoy/data/ggal/*_{1,2}.fq"
+params.annot = "/home/djlemas/rnatoy/data/ggal/ggal_1_48850000_49020000.bed.gff"
+params.genome = "/home/djlemas/rnatoy/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa"
 params.outdir = 'results'
 
 log.info """\
